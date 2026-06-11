@@ -1,14 +1,15 @@
-# Image Gallery
+# Visual Asset Gallery
 
-A responsive gallery concept for organizing visual collections, albums, tags, and featured media.
+Organize visual assets, albums, tags, exports, and campaign-ready media collections.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A responsive gallery concept for organizing visual collections, albums, tags, an
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.
