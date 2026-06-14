@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-image-gallery",
+  "title": "Visual Asset Gallery",
+  "subtitle": "Albums, tags, exports, and featured media",
+  "eyebrow": "Media MVP",
+  "initial": "IG",
+  "accent": "#db2777",
+  "description": "Organize visual assets, albums, tags, exports, and campaign-ready media collections.",
+  "metrics": [
+    {
+      "label": "Total albums",
+      "delta": "Media",
+      "type": "count"
+    },
+    {
+      "label": "Ready sets",
+      "delta": "Launch",
+      "type": "count"
+    },
+    {
+      "label": "Tagged rate",
+      "delta": "Search",
+      "type": "percent"
+    },
+    {
+      "label": "Critical assets",
+      "delta": "Review",
+      "type": "count"
+    },
+    {
+      "label": "Asset value",
+      "delta": "Reuse",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Curated",
+    "Ready",
+    "Tagged",
+    "Exported",
+    "Review"
+  ],
+  "resources": [
+    {
+      "title": "Brand photography set",
+      "owner": "Creative",
+      "status": "Curated",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 7200,
+      "detail": "Hero images selected for campaign pages.",
+      "notes": "Confirm usage rights and alt text."
+    },
+    {
+      "title": "Product render pack",
+      "owner": "Ecommerce",
+      "status": "Ready",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 5400,
+      "detail": "Transparent and lifestyle product variants.",
+      "notes": "Export square and webp versions."
+    },
+    {
+      "title": "Event photo archive",
+      "owner": "Events",
+      "status": "Tagged",
+      "priority": "Low",
+      "dueDate": "2026-06-26",
+      "value": 2100,
+      "detail": "Photos grouped by session and speaker.",
+      "notes": "Add speaker names to metadata."
+    },
+    {
+      "title": "Social asset export",
+      "owner": "Social",
+      "status": "Exported",
+      "priority": "Medium",
+      "dueDate": "2026-06-15",
+      "value": 3600,
+      "detail": "Square and story formats prepared for launch.",
+      "notes": "Upload to content calendar."
+    },
+    {
+      "title": "Homepage hero selection",
+      "owner": "Web",
+      "status": "Review",
+      "priority": "Critical",
+      "dueDate": "2026-06-16",
+      "value": 9800,
+      "detail": "Final hero image choice for homepage refresh.",
+      "notes": "A/B test lifestyle versus product crop."
+    },
+    {
+      "title": "Icon library refresh",
+      "owner": "Design",
+      "status": "Tagged",
+      "priority": "High",
+      "dueDate": "2026-06-24",
+      "value": 4300,
+      "detail": "Updated icon set for product modules.",
+      "notes": "Check accessibility contrast."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Exported social asset pack.",
+      "at": "2026-06-10T14:00:00Z"
+    },
+    {
+      "text": "Tagged event archive.",
+      "at": "2026-06-07T16:30:00Z"
+    }
+  ]
+}
